@@ -190,6 +190,14 @@ Algumas limitações foram identificadas durante os testes:
 
 Quando a importação automática não funciona, o usuário pode inserir manualmente o texto da vaga.
 
+### 7.1. Comportamento observado nos testes de reanálise
+
+Durante a bateria de testes práticos, foi identificado um comportamento importante em relação à adaptação e reanálise do currículo:
+
+- **Estagnação da porcentagem de compatibilidade:** Embora o sistema gere com sucesso uma nova versão textual do currículo com as alterações sugeridas, a pontuação/porcentagem de compatibilidade exibida pela ferramenta não aumentou proporcionalmente após a adaptação.
+- **Causa provável:** O motor de cálculo de compatibilidade atual ainda avalia de forma estática os dados brutos inicialmente inseridos, ou exige uma reanálise via prompt mais agressivo na injeção direta de palavras-chave exatas requeridas pela vaga.
+- **Oportunidade para próximas versões:** Implementar uma rotina de recalculo dinâmico da pontuação após a edição/geração do novo currículo, garantindo que o usuário veja visualmente o aumento da taxa de compatibilidade (*feedback loop* em tempo real).
+
 ## 8. Evidências de funcionamento
 
 ### 1. Tela Inicial da Aplicação
