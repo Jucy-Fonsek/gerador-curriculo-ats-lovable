@@ -192,20 +192,14 @@ Quando a importação automática não funciona, o usuário pode inserir manualm
 
 ## 8. Evidências de funcionamento
 
-Esta seção será utilizada para apresentar capturas de tela reais da aplicação.
+### 1. Tela Inicial da Aplicação
+![Tela Inicial](docs/images/tela-inicial.png)
 
-As imagens devem demonstrar o funcionamento das principais etapas, desde a inserção das informações até a geração do currículo otimizado.
+### 2. Análise de Compatibilidade
+![Análise de Compatibilidade](docs/images/compatibilidade.png)
 
-**Capturas de tela sugeridas:**
-
-1. Tela inicial da aplicação;
-2. Inserção ou anexação do currículo;
-3. Inserção da descrição ou link da vaga;
-4. Resultado da análise de compatibilidade;
-5. Identificação das palavras-chave;
-6. Currículo otimizado;
-7. Exemplo do PDF exportado.
-
+### 3. Currículo Otimizado
+![Currículo Otimizado](docs/images/curriculo-otimizado.png)
 ## 9. Aplicação publicada
 
 A aplicação está disponível publicamente no Lovable.
